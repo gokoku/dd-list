@@ -1,0 +1,37 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+  height: 200px;
+  width: 300px;
+}
+ul {
+  display: flex;
+  padding: 0.5em;
+  list-style: none;
+  justify-content: center;
+  align-items: center;;
+}
+li{
+  padding: 1rem 2rem;
+  margin: 1rem;
+  color: white;
+  background-color: brown;
+  cursor: move;
+}
+.active {
+  position: absolute;
+
+}
